@@ -1,0 +1,31 @@
+body{
+    background-color: tomato;
+}
+#GridContainer{
+    display: grid;
+    grid-template-areas: 
+    'Header Header Header'
+    'Left Left Main'
+    'Left Left Main'
+    
+}
+
+div div{
+    height: 80px;
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+}
+
+#item1{
+    grid-area: Header;
+}
+
+#item2{
+    grid-area: Left;
+}
+
+#item3{
+    grid-area: Main;
+}
