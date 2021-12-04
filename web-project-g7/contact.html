@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <link rel="stylesheet" href="homepage.css">
+    <script src="contact.js"></script>
     <title>Brooklyn-Homepage</title>
     <a href="#" class="button">הזמן תור</a><div id='logo'><img src="images/logo.jpeg" alt="Brooklyn"></div>
     <hr>
@@ -19,14 +20,16 @@
       <div style="margin-left:auto;margin-right:auto;text-align:center">
       <h2>Contact Us</h2>
       <form action="" method="post">
-    <strong> Fill out the details and we'll reach out<br></strong><br>
+    <strong> Fill out the details and we'll reach out to you as soon as possible<br></strong><br>
     <label for="fname">First name:</label>
     <input id = "firstname" type="text" id = "firstname" name="firstname" class="box"><br><br>
     <label for="lastname">Last name:</label>
     <input id = "lastname" type="text" id="lastname" name="lastname" class="box"><br><br>
     <label for="Email">Email:</label>
-    <input id = "Email" type="email" id="Email" name="Email" class="box" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" size="50" required><br><br>
-    <label for="comment">what would you like to contact me for?</label><br>
+    <input id = "Email" type="email" id="Email" name="Email" class="box" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" size="30" required> 
+    <button onclick="validateEmail()">Verify email</button><br>
+    
+    <label for="comment">Message</label><br>
     <textarea id="comment" name="comment" cols = "45" rows="15" class="box"></textarea><br><br>
     <button id="myButton" class="float-left submit-button" >Send</button>
 
