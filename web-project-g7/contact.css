@@ -1,24 +1,12 @@
-* {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    box-sizing: border-box;
-}
-
-#logo {
-    text-align: center;
-}
-
-#links {
-    text-align: center;
-}
-
-#body {
-    text-align: center;
-}
-
 .tab {
-    tab-size: 8;
+    tab-size: 4;
 }
-
+.message{
+  position:absolute;
+    transition: .5s ease;
+    top: 8%;
+    left: 15%;  
+}
 .button {
     font: bold 25px Arial;
     text-decoration: none;
@@ -35,6 +23,3 @@
       top: 14%;
       left: 10%;
   }
-  footer{
-    text-align: center;
-}

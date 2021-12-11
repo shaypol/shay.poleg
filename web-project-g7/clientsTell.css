@@ -37,7 +37,7 @@
     box-shadow: 20px 20px rgba(80, 70, 45, 0.801);
     margin-block: 10px;	
     grid-column: 8/15;
-    grid-row: 1 span;
+    grid-row: 1;
 }
 
 
@@ -123,8 +123,8 @@
     border-left: 1px solid #CCCCCC;
     position:absolute;
       transition: .5s ease;
-      top: 8%;
-      left: 30%;
+      top: 14%;
+      left: 10%;
   }
   footer{
     text-align: center;

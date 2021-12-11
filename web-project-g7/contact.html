@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="contact.css">
     <script src="contact.js"></script>
     <title>Brooklyn-Homepage</title>
-    <a href="#" class="button">הזמן תור</a><div id='logo'><img src="images/logo.jpeg" alt="Brooklyn"></div>
+    <a href="#" class="button">BOOK NOW</a><div id='logo'><img src="images/logo.png" alt="Brooklyn"></div>
     <hr>
     <div id='links'>
-        <a href="homepage.html">אודות</a> | <a href="clientsTell.html">מה לקוחות מספרים</a> | <a href="pictures.html">תמונות</a> | <a href="contact.html">צור קשר</a>
+        <a href="homepage.html">ABOUT</a> | <a href="clientsTell.html">WHAT CLIENTS ARE SAYING</a> | <a href="pictures.html">GALLERY</a> | <a href="contact.html">CONTACT US</a>
     </div>
     <hr>
     </div>
@@ -22,15 +23,15 @@
       <form action="" method="post">
     <strong> Fill out the details and we'll reach out to you as soon as possible<br></strong><br>
     <label for="fname">First name:</label>
-    <input id = "firstname" type="text" id = "firstname" name="firstname" class="box"><br><br>
+    <input id = "firstname" type="text" id = "firstname" name="firstname" class="box" size="30"> <br><br>
     <label for="lastname">Last name:</label>
-    <input id = "lastname" type="text" id="lastname" name="lastname" class="box"><br><br>
+    <input id = "lastname" type="text" id="lastname" name="lastname" class="box" size="30"><br><br>
     <label for="Email">Email:</label>
-    <input id = "Email" type="email" id="Email" name="Email" class="box" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" size="30" required> 
-    <button onclick="validateEmail()">Verify email</button><br>
-    
-    <label for="comment">Message</label><br>
-    <textarea id="comment" name="comment" cols = "45" rows="15" class="box"></textarea><br><br>
+    <input id = "Email" type="email" id="Email" name="Email" class="box" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+    <button onclick="validateEmail()">Verify email</button><br><br>
+    <div id="message">
+    <label for="comment">Message:</label></div>
+    <textarea id="comment" name="comment" cols = "30" rows="5" class="box"></textarea><br><br>
     <button id="myButton" class="float-left submit-button" >Send</button>
 
     <br><br>
