@@ -1,0 +1,29 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+
+  #logo {
+    text-align: center;
+}
+
+
+
+.button {
+    font: bold 25px Arial;
+    text-decoration: none;
+    background-color: #fc1581;
+    color: #000000;
+    border-radius: 10rem;
+    padding: 18px 22px 18px 22px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+    position:absolute;
+      transition: .5s ease;
+      top: 50%;
+      left: 10%;
+  }
+  
